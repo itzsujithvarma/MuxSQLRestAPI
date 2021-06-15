@@ -21,10 +21,7 @@ var s = fmt.Sprintf("%s:%s@tcp(%s:3306)/%s", db_user, db_pwd, db_addr, db_db)
 var db *sql.DB
 var err error
 var id int
-var fn string
-var ln string
-var city string
-var mobile string
+var fn, ln, city, mobile string
 var emp Employee
 
 type Employee struct {
